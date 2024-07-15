@@ -1,0 +1,62 @@
+/* Custom Styles */
+
+/* Style for the header */
+header.jumbotron {
+  background-color: #f8f9fa;
+  margin-bottom: 0;
+}
+
+/* Style for the about section */
+#about {
+  padding: 2rem 0;
+}
+
+/* Style for the projects section */
+#projects {
+  padding: 2rem 0;
+}
+
+/* Style for the contact section */
+#contact {
+  padding: 2rem 0;
+}
+
+/* Style for the footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.contact {
+  width: 80%; /* Set width to match other sections */
+  margin: 0 auto; /* Center horizontally. */
+  padding: 20px; /* Add padding */
+  color: black; /* Change text color to black */
+  margin-bottom: 20px; /* Add some space below */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%; /* Take up full width */
+  margin-bottom: 10px; /* Add some space between elements */
+  padding: 10px; /* Add padding */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.contact button {
+  width: 100%; /* Take up full width */
+  padding: 10px; /* Add padding */
+  background-color: #363737; /* Change button background color */
+  color: white;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.captcha {
+  align-self: center;
+}

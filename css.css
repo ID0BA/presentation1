@@ -14,7 +14,18 @@ header.jumbotron {
 /* Style for the projects section */
 #projects {
   padding: 2rem 0;
+  margin-bottom: 50px;
 }
+
+#project-card {
+  transition: transform 50000s, box-shadow 5000s;
+}
+
+.project-card:hover {
+  transform: translateY(-7.5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 /* Style for the contact section */
 #contact {

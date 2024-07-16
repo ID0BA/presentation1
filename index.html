@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>UAB LTD</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -15,7 +15,7 @@
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <a class="navbar-brand" href="#">Demo site</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -49,87 +49,108 @@
 
     <!-- Header Section -->
     <header class="jumbotron text-center">
-      <h1 class="display-4">Welcome to My Portfolio</h1>
-      <p class="lead">Showcasing my projects and skills.</p>
+      <h1 class="display-4">Welcome to UAB LTD</h1>
+      <p class="lead">The premier company in HTML/CSS designing</p>
     </header>
 
     <!-- About Section -->
     <section id="about" class="container">
-      <h2>About Me</h2>
-      <p>This section is about me.</p>
+      <h2>About Us</h2>
+      <p>
+        NARRATOR:
+        (Black screen with text; The sound of buzzing bees can be heard)
+        According to all known laws
+        of aviation,
+         :
+        there is no way a bee
+        should be able to fly.
+         :
+        Its wings are too small to get
+        its fat little body off the ground.
+         :
+        The bee, of course, flies anyway
+         :
+        because bees don't care
+        what humans think is impossible.
+        BARRY BENSON:
+        (Barry is picking out a shirt)
+        Yellow, black. Yellow, black.
+        Yellow, black. Yellow, black.</p>
     </section>
 
-    <!-- Projects Section. -->
-    <section id="projects" class="container">
-      <h2>Projects</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img src="picture1.jpg" class="card-img-top" alt="Project 1" />
-            <div class="card-body">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">Description of project 1.</p>
-            </div>
-          </div>
+<!-- Projects Section. -->
+<section id="projects" class="container">
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-4 project-card">
+        <img src="picture1.jpg" class="card-img-top" alt="Project 1" />
+        <div class="card-body">
+          <h5 class="card-title">Project 1</h5>
+          <p class="card-text">Picture I took while on the moon 5 days ago.</p>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img src="picture2.jpg" class="card-img-top" alt="Project 2" />
-            <div class="card-body">
-              <h5 class="card-title">Project 2</h5>
-              <p class="card-text">Description of project 2.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img src="picture3.jpg" class="card-img-top" alt="Project 3" />
-            <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">Description of project 3.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Contact Section-->
-    <div class="contact">
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <!-- Replace with your Access Key. -->
-        <input
-          type="hidden"
-          name="access_key"
-          value="8633d612-a648-4d88-be2f-28154ed16a29"
-        />
-
-        <!-- Form Inputs. Each input must have a name="" attribute -->
-        <input type="text" name="name" required placeholder="Your name." />
-        <input type="email" name="email" required placeholder="Your email." />
-        <textarea
-          name="message"
-          required
-          placeholder="Your message."
-        ></textarea>
-
-        <!-- hCaptcha Spam Protection -->
-        <div class="h-captcha" data-captcha="true"></div>
-
-        <button type="submit">Submit Form.</button>
-      </form>
-      <!-- Required for hCaptcha -->
-      <div class="captcha">
-        <script
-          src="https://web3forms.com/client/script.js"
-          async
-          defer
-        ></script>
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="card mb-4 project-card">
+        <img src="picture2.jpg" class="card-img-top" alt="Project 2" />
+        <div class="card-body">
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">duck</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 project-card">
+        <img src="picture3.jpg" class="card-img-top" alt="Project 3" />
+        <div class="card-body">
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">Photosynthesis.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+    <!--Contact Section-->
+    <section id="contact" class="container">  
+      <div class="contact">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <!-- Replace with your Access Key. -->
+          <input
+            type="hidden"
+            name="access_key"
+            value="8633d612-a648-4d88-be2f-28154ed16a29"
+          />
+
+          <!-- Form Inputs. Each input must have a name="" attribute -->
+          <input type="text" name="name" required placeholder="Your name." />
+          <input type="email" name="email" required placeholder="Your email." />
+          <textarea
+            name="message"
+            required
+            placeholder="Your message."
+          ></textarea>
+
+          <!-- hCaptcha Spam Protection -->
+          <div class="h-captcha" data-captcha="true"></div>
+
+          <button type="submit">Submit Form.</button>
+        </form>
+        <!-- Required for hCaptcha -->
+        <div class="captcha">
+          <script
+            src="https://web3forms.com/client/script.js"
+            async
+            defer
+          ></script>
+        </div>
+      </div>
+    </section>
+    
     <!-- Footer -->
     <footer class="text-center mt-4">
-      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+      <p>&copy; 1261 UAB ltd. No rights reserved!</p>
     </footer>
 
     <!-- Bootstrap JS and dependencies -->

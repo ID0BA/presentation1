@@ -49,7 +49,7 @@ footer {
   flex-direction: column; /* Stack elements vertically */
 }
 
-.contact input[type="text"],
+.contact input[type="text"], /* .contact is class selector which targets anything within 'contact' class */ 
 .contact input[type="email"],
 .contact textarea {
   width: 100%; /* Take up full width */
